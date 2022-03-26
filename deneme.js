@@ -102,4 +102,5 @@ let nums3 = [1, 2, 3]
 // let nums2 = [1, 2, 3]
 let nums4 = nums3
 console.log(nums3==nums4)
+
 */
