@@ -2,7 +2,7 @@ function sayiUret(ustLimit = 49) {
   return Math.ceil(Math.random() * ustLimit);
 }
 
-sayiUret();
+
 
 var sayi1 = sayiUret(10000);
 var sayi2 = sayiUret();
