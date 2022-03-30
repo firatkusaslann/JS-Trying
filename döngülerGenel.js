@@ -77,3 +77,43 @@
 
 // } while (i < 10);
 
+///////////////////////////////////////////////For Döngüleri
+
+// const langs = ["Python", "Javascript", "Java"];
+
+// let index = 0;
+// while (index < langs.length) {
+//   console.log(langs[index]);
+//   index++;
+// }
+
+// for (let index = 0; index < langs.length; index++) {
+//   console.log(1++ + langs[index]);
+// }
+
+// langs.forEach(function (lang, index) {
+//   console.log(lang, index);
+// });
+
+
+
+
+// map özzeliği
+// const users = [
+//   { name: "Mustafa", age: 25 },
+//   { name: "Zeynep", age: 40 },
+//   { name: "Ali", age: 12 },
+// ];
+
+// const names = users.map(function (user) {
+//   return user.name;
+// });
+
+// const ages = users.map(function (user) {
+//   return user.age;
+// });
+
+// console.log(names);
+// console.log(ages);
+
+
