@@ -95,9 +95,6 @@
 //   console.log(lang, index);
 // });
 
-
-
-
 // map özzeliği
 // const users = [
 //   { name: "Mustafa", age: 25 },
@@ -116,4 +113,11 @@
 // console.log(names);
 // console.log(ages);
 
+const user = {
+  name: "Mustafa",
+  age: 25,
+};
 
+for (let key in user) {
+  console.log(key, user[key]);
+}
