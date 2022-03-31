@@ -50,5 +50,7 @@ value = window.outerHeight; // pencere yüksekliği
 valuee = window.outerWidth; // pencere genişliği
 value = window.innerHeight; // Sayfa yüksekliği
 valuee = window.innerWidth; // Sayfa geniliği
+value = window.scrollX; //sayfa alt scroll çubuğunun başlangıç noktasına uzaklık pikseli
+value = window.scrollY; //sayfa sağ scroll çubuğunun başlangıç noktasına uzaklık pikseli
 
-console.log("Yükseklik: " + value, " Genişlik: " + valuee);
+console.log(value);
