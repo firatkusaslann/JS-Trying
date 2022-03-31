@@ -22,7 +22,7 @@
 
 // // merhaba("Ayşe", 30);
 
-merhaba();
+// merhaba();
 
 //if için kısa yol
 function merhaba(name = "Bilgi Yok", age = "Bilgi Yok") {
