@@ -9,14 +9,8 @@ newLink.className = "btn btn-danger";
 newLink.href = "https://www.google.com";
 newLink.target = "_blank";
 
-//Text Content
+newLink.appendChild(document.createTextNode("Farklı sayfaya git"));
 
-// newLink.textContent = "Farklı pençerede aç.";
+cardbody.appendChild(newLink);
 
-// text node
-
-const text = document.createTextNode("Naber");
-cardbody.appendChild(text);
-
-console.log(cardbody);
 console.log(newLink);
