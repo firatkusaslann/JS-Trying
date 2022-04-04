@@ -26,7 +26,7 @@ value = programmer.langs;
 
 value = programmer.adress.city;
 
-programmer.work();
+programmer.work(); //!!!!!!!!!!!!!!!! Fonsiyonu çalıştırdık
 
 const programmers = [
   { name: "Mustafa Murat", age: 25 },
