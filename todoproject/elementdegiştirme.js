@@ -29,7 +29,6 @@
 
 // console.log(newElement);
 
-
 // card header elementinin içindeki text i değiştireceğim
 
 const cardheader = document.querySelector(".card-header");
@@ -44,8 +43,6 @@ const oldElement = document.querySelector(".card-header");
 cardheader.replaceWith(newElement, oldElement); // replace with, child olmayan durumlrda
 
 console.log(newElement);
-
-
 
 // button elementinin özelliklerini değiştireceğim
 
