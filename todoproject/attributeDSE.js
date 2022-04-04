@@ -39,19 +39,35 @@
 // // element = todoInput.hasAttribute("name2"); //false
 // console.log(element);
 
-const todo = document.getElementById("todo");
-let element;
-element = todo;
-element = todo.classList;
+// const todo = document.getElementById("todo");
+// let element;
+// element = todo;
+// element = todo.classList;
 
-todo.classList.add("adding1", "adding2");
-todo.classList.remove("adding1", "adding2");
+// todo.classList.add("adding1", "adding2");
+// todo.classList.remove("adding1", "adding2");
 
-element = todo.placeholder;
-todo.setAttribute("placeholder", "Burada input var");
-todo.removeAttribute("name");
+// element = todo.placeholder;
+// todo.setAttribute("placeholder", "Burada input var");
+// todo.removeAttribute("name");
 
-element = todo;
-element = todo.hasAttribute("name");
+// element = todo;
+// element = todo.hasAttribute("name");
 
-console.log(element);
+// console.log(element);
+
+const filter = document.getElementById("filter");
+let fil;
+fil = filter;
+fil = filter.classList;
+
+filter.classList.add("adding1", "adding2");
+filter.classList.remove("adding1", "adding2");
+
+fil = filter.placeholder;
+filter.setAttribute("placeholder", "buradan aratabilirsiniz");
+filter.removeAttribute("name");
+
+fil = filter;
+fil = filter.hasAttribute("name");
+console.log(fil);
