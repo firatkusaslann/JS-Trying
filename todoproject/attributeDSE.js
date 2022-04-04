@@ -39,20 +39,19 @@
 // // element = todoInput.hasAttribute("name2"); //false
 // console.log(element);
 
-const clear = document.getElementById("clear-todos");
-let btn;
-btn = clear;
-btn = clear.classList;
+const todo = document.getElementById("todo");
+let element;
+element = todo;
+element = todo.classList;
 
-clear.classList.add("adding1", "adding2");
-clear.classList.remove("adding1", "adding2");
+todo.classList.add("adding1", "adding2");
+todo.classList.remove("adding1", "adding2");
 
-btn = clear;
-btn = clear.textContent;
+element = todo.placeholder;
+todo.setAttribute("placeholder", "Burada input var");
+todo.removeAttribute("name");
 
+element = todo;
+element = todo.hasAttribute("name");
 
-
-
-
-
-console.log(btn);
+console.log(element);
