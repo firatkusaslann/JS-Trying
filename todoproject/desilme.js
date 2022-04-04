@@ -8,17 +8,22 @@ const todos = document.querySelectorAll("li.list-group-item");
 
 // });
 
-for (let i = 0; todos.length > i; i++) {
-  todos[i].remove();
-}
+// for (let i = 0; todos.length > i; i++) {
+//   todos[i].remove();
+// }
+
+todoList.removeChild(todos[3]);
 
 // // Remove Metodu
 
 // todos[0].remove();
 // // todoList.removeChild(todoList.lastElementChild);
 
-console.log(todo);
+// console.log(todo);
+
 // console.log(todoList);
+
+
 
 // Dinamik Element Silme
 
@@ -34,5 +39,5 @@ console.log(todo);
 // // todoList.removeChild(todoList.lastElementChild);
 // // todoList.removeChild(todos[3]);
 
-// console.log(todos);
-// console.log(todoList);
+console.log(todos);
+console.log(todoList);
