@@ -1,4 +1,4 @@
-const element = document.querySelector("#clear-todos");
+// const element = document.querySelector("#clear-todos");
 
 // element özellikleri
 
@@ -41,10 +41,34 @@ const element = document.querySelector("#clear-todos");
 // console.log(add);
 // add.innerHTML = "<span style ='color:green'>Ekle</span>"
 
-const elements = document.querySelectorAll(".list-group-item"); // node list
-elements.forEach(function (el) {
-  el.style.color = "white";
-  el.style.background = "#606060";
+// const elements = document.querySelectorAll(".list-group-item"); // node list
+// elements.forEach(function (el) {
+//   el.style.color = "white";
+//   el.style.background = "#606060";
+// });
+
+// const li = document.querySelectorAll("#todo"); // node list döndürdü
+// li.forEach(function (li) {
+//   li.style.outline = "3px solid #333";
+//   li.style.borderRadius = "1rem";
+//   li.style.padding = "1rem 2rem";
+//   li.style.fontSize = "2rem";
+//   li.style.background = "#f6f6f6";
+//   li.placeholder = " Bir todo ekleyebilirsin";
+//   console.log(li);
+// });
+
+let element2 = document.querySelector("li"); // ilk "li" yi seçti
+element2 = document.querySelector("li:first-child"); // ilk "li" yi seçti
+element2 = document.querySelector("li:last-child"); // son "li" yi seçti
+element2 = document.querySelector("li:nth-child(2)"); // ikinci çocuğu seçti
+element2 = document.querySelector("li:nth-child(3)"); // üçüncü çocuğu seçti
+element2 = document.querySelectorAll("li:nth-child(odd)"); // "querySElectorAll" ve "odd" kullanarak tek sayı olan çocukları seçti
+element2 = document.querySelectorAll("li:nth-child(even)"); // "querySelectorAll" ve "even" kullanarak çift sayı olan çocukları seçti
+
+element2.forEach(function (li) {
+  li.style.background = "#606060";
+  li.style.color = "#fff";
 });
 
-
+console.log(element2);
