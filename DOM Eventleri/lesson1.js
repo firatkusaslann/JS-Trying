@@ -18,7 +18,7 @@ const todoForm = document.getElementById("todo-form");
 todoForm.addEventListener("submit", submitForm);
 
 function submitForm(e) {
-  console.log("Submit Eventi"); // submitin yenileme özelliğini etkisiz kılar
+  console.log("Submit Eventi");
 
-  e.preventDefault();
+  e.preventDefault(); // submitin yenileme özelliğini etkisiz kılar
 }
