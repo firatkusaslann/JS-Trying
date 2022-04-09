@@ -13,3 +13,15 @@ const filter = document.querySelector("#filter");
 // function run(e) {
 //   console.log(e.type);
 // }
+
+// Paste Event'i -- input içine dışarıdan her hangi bir değer yapıştırılınca
+filter.addEventListener("paste", run);
+// Copy Event'i  -- input içinden her hangi bir değer kopyalanınca
+filter.addEventListener("copy", run);
+// Cut Event'i   -- İnput içindeki değerden her hangi bir kısım kesilince
+filter.addEventListener("cut", run);
+// Select Event'i - İnput içinden her hangi bir kısım seçilince
+filter.addEventListener("select", run);
+function run(e) {
+  console.log(e.type);
+}
